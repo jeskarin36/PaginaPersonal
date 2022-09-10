@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style/index.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="contenedor-header">
+       <header>
+            <div class="logo">
+                <a href="#">Jeskarin</a>
+            </div>
+            <nav id="nav" >
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                    
+                </ul>
+            </nav>
+          
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+       </header>
+    </div>
+
+    <div class="inicio" id="inicio">
+        <div class="contenido-banner">
+            <div class="contendor-img">
+                <img src="src/foto-de-perfil.jpg" alt="" srcset="">
+            </div>
+            <h1>Jeskarin </h1>
+            <h2>Ingeniera Informatica</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre mi</h2>
+            <p><span>Hola,soy Jeskarin Martinez</span>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero est consequuntur sequi, dolorum aperiam quia voluptatibus? Esse tempore sequi quos molestiae earum repellat ex repellendus, quaerat eveniet impedit blanditiis unde.
+            </p>
+
+            <div class="fila">
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                       <ul>
+                            <li>
+                                <strong>Cumpleaños</strong>
+                                05-09-2003
+                            </li>
+                            <li>
+                                <strong>Telefono</strong>
+                                04262042265
+                            </li>
+                            <li>
+                                <strong>Email</strong>
+                                jeskarinmartinez36@gmail.com
+                            </li>
+                            <li>
+                               <Strong>Direccion</Strong>
+                               Caracas, Venezuela
+                            </li>
+                            <li>
+                                <strong>Cargo</strong>
+                                <span>Estudiante</span>
+                            </li>
+                       </ul>
+                </div>
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>Juegos</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>Musica</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>Viajes</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>Mac os</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>Deportes</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>Libros</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>Carros</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>Fotos</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <Button>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </Button>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso ">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                      <div class="skill">
+                        <span>Html y Css</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Wordpress</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>81%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Drupa</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicacion</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                      <div class="skill">
+                        <span>Trabajo en equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicacion</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>81%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educacion</h3>
+                    <div class="item izq">
+                        <h4>Arte y Multimedias</h4>
+                        <span class="casa">Universidad de Oxford</span>
+                        <span class="fecha">2020-2022</span>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error optio veniam, eaque unde id hic voluptatibus libero accusantium, magni voluptates nemo fugit, facere odit iure expedita ipsum qui neque debitis.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Arte y Multimedias</h4>
+                        <span class="casa">Universidad de Oxford</span>
+                        <span class="fecha">2020-2022</span>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error optio veniam, eaque unde id hic voluptatibus libero accusantium, magni voluptates nemo fugit, facere odit iure expedita ipsum qui neque debitis.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Arte y Multimedias</h4>
+                        <span class="casa">Universidad de Oxford</span>
+                        <span class="fecha">2020-2022</span>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error optio veniam, eaque unde id hic voluptatibus libero accusantium, magni voluptates nemo fugit, facere odit iure expedita ipsum qui neque debitis.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col derecha">
+                    <h3>Experiencia de trabajos</h3>
+                    <div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="casa">Nombre de Compañias</span>
+                        <span class="fecha">2020-2022</span>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error optio veniam, eaque unde id hic voluptatibus libero accusantium, magni voluptates nemo fugit, facere odit iure expedita ipsum qui neque debitis.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="casa">Nombre de Compañias</span>
+                        <span class="fecha">2020-2022</span>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error optio veniam, eaque unde id hic voluptatibus libero accusantium, magni voluptates nemo fugit, facere odit iure expedita ipsum qui neque debitis.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="casa">Nombre de Compañias</span>
+                        <span class="fecha">2020-2022</span>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error optio veniam, eaque unde id hic voluptatibus libero accusantium, magni voluptates nemo fugit, facere odit iure expedita ipsum qui neque debitis.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                  
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portafolio" id="portafolio">
+        <div class="contenido-seccion">
+            <h2>Portafolio</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="src/images.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño creativo</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="src/images.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño creativo</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="src/images.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño creativo</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="src/images.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño creativo</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>Contacto</h2>
+            <div class="fila">
+                <div class="col">
+                    <input type="text" placeholder="Tu nombre">
+                    <input type="text" placeholder="Numero Telefonico">
+                    <input type="text" placeholder="Direccion de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                    <span class="overlay"></span>
+                    </button>
+                </div>
+                <div class="col">
+                    <img src="src/1366_2000.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li><i class="fa-solid fa-location-dot"></i>
+                            Venezuela, Caracas
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile"></i>
+                                Llamanos: 0426201554
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email:jeskarinmartinez36@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <a href="#" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </footer>
+    <script src="script/index.js"></script>
+</body>
+</html>
